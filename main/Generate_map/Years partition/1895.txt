@@ -1,0 +1,2 @@
+(47.2380222, 6.0243622) == ["La sortie de l'usine Lumière à Lyon "]
+(40.7706562, -74.2326463) == ['Princess Ali ']

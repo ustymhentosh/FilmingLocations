@@ -1,0 +1,5 @@
+(59.594550049999995, 9.670860075643745) == ['Dypets Øyne ']
+(41.7198216, -72.8320435) == ["I'm a Troll "]
+(48.630272500000004, -122.3441195625) == ['The Time That Time Forgot ']
+(41.7439638, -72.5381757) == ["The Train in my Grandmother's Backyard "]
+(23.135305, -82.3589631) == ['Thee Recluse: The Lost Art of Murder ']
