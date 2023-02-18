@@ -34,7 +34,46 @@ The code includes the following functions:
 
 If you want to understand more about analyzing file **`locations.list`** read this:
 
-[database_transformation.py](https://www.notion.so/database_transformation-py-960036ee60e446588c3d9d992df6f16b)
+## database_transformation.py
+
+The script reads a database of movie titles and filming locations, finds the coordinates for each location using the **`geopy`** library and writes the results to a text file.
+
+### **Dependencies**
+
+- **`re`**
+- **`geopy`**
+- **`tqdm`**
+- **`argparse`**
+
+### **Installation**
+
+Use the package manager **[pip](https://pip.pypa.io/en/stable/)** to install **`geopy`**:
+
+```powershell
+
+pip install geopy
+
+```
+
+### **Usage**
+
+To use the execute this
+
+❗❗❗ this will start a process of creating more that 100 files in `**generate_year_partition**` folder and will take more than `**9 hours**`. I do not recommend to run It. Only for test purposes. Also `**internet connection**` is required
+
+```powershell
+
+python database_transformation.py.py locations.list
+
+```
+
+### **Functionality**
+
+**`read_transform_write(database_path: str) -> dict`**: Reads the input database, finds coordinates for each filming address, and writes the results to a new file.
+
+**`engage_decoding(universal_dictionary: dict, year = '') -> dict`**: Reads in the dictionary produced by **`read_transform_write()`**, processes the data, and produces a new dictionary that maps the coordinates of each filming location to the corresponding movie titles. This function can also operate on a subset of the data for a specific year.
+
+**`get_coords(address: str, precise = False) -> None`**: Gets the coordinates for a given address using the **`geopy`** library. If **`precise = True`**, the function will keep removing the last comma-separated value from the address until a valid coordinate is found.
 
 ## **Dataset**
 
