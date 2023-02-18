@@ -85,19 +85,19 @@ The application uses a dataset of movie filming locations that can be found in t
 python main\Generate_map\main.py 2015 40.83826 24.02324 path_to_dataset
 ```
 
-![Untitled](photos\Greece.png)
+![Untitled](https://github.com/ustymhentosh/Filming_locations/blob/develop/photos/Greece.png)
 
 ```powershell
 python main\Generate_map\main.py 2015 -33.8688 151.2093 path_to_dataset
 ```
 
-![Untitled](photos\Italy.png)
+![Untitled](https://github.com/ustymhentosh/Filming_locations/blob/develop/photos/Sydney.png)
 
 ```powershell
 python main\Generate_map\main.py 2011 -0.628508, -150.42300  path_to_dataset
 ```
 
-![Untitled](photos\Pacific.png)
+![Untitled](https://github.com/ustymhentosh/Filming_locations/blob/develop/photos/Pacific.png)
 
 ## **Credits**
 
