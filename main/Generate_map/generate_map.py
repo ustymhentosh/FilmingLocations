@@ -61,24 +61,24 @@ def generate_map(year, latitude, longitude):
 
 
 if __name__ == "__main__":
-    # parser = argparse.ArgumentParser(
-    #                 prog = 'generate_map',
-    #                 description = 'gererates map of movies')
-    # parser.add_argument('year',
-    #                 type = int,
-    #                 help ='year when movies were filmed')
-    # parser.add_argument('latitude',
-    #                 type = float,
-    #                 help ='latitude of user`s position')
-    # parser.add_argument('longitude',
-    #                 type = float,
-    #                 help ='longitude of user`s position')
-    # parser.add_argument('path_to_dataset',
-    #                 type = str,
-    #                 help ='path to movies locations dataset')
-    # args = parser.parse_args()
+    parser = argparse.ArgumentParser(
+                    prog = 'generate_map',
+                    description = 'gererates map of movies')
+    parser.add_argument('year',
+                    type = int,
+                    help ='year when movies were filmed')
+    parser.add_argument('latitude',
+                    type = float,
+                    help ='latitude of user`s position')
+    parser.add_argument('longitude',
+                    type = float,
+                    help ='longitude of user`s position')
+    parser.add_argument('path_to_dataset',
+                    type = str,
+                    help ='path to movies locations dataset')
+    args = parser.parse_args()
 
-    # generate_map(str(args.year), args.latitude , args.longitude)
+    generate_map(str(args.year), args.latitude , args.longitude)
 
     if __name__ == '__main__':
         import doctest
