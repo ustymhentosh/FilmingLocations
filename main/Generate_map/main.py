@@ -56,7 +56,7 @@ def generate_map(year, latitude, longitude):
                                 fill_color='#000',
                                 radius= rradius, weight=2, color="#000"))
     map.add_child(fg)
-    map.save('Result.html')
+    map.save('FINAL_MAP.html')
     return None
 
 
