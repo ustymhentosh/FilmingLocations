@@ -79,6 +79,26 @@ python database_transformation.py.py locations.list
 
 The application uses a dataset of movie filming locations that can be found in the **`locations.list`** file, which can be downloaded from the IMDb website.
 
+## Examples
+
+```powershell
+python main\Generate_map\main.py 2015 40.83826 24.02324 path_to_dataset
+```
+
+![Untitled](photos\Greece.png)
+
+```powershell
+python main\Generate_map\main.py 2015 -33.8688 151.2093 path_to_dataset
+```
+
+![Untitled](photos\Italy.png)
+
+```powershell
+python main\Generate_map\main.py 2011 -0.628508, -150.42300  path_to_dataset
+```
+
+![Untitled](photos\Pacific.png)
+
 ## **Credits**
 
 This project was created by **[Ustym Hentosh](https://github.com/ustymhentosh)**.

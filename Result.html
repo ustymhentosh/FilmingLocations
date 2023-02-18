@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1f878fa26f8476ee1ea6cc19f66e1fcd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1f878fa26f8476ee1ea6cc19f66e1fcd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1f878fa26f8476ee1ea6cc19f66e1fcd = L.map(
+                "map_1f878fa26f8476ee1ea6cc19f66e1fcd",
+                {
+                    center: [-0.628508, -150.423],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0c779f2c7749ad609129c977b0557dcd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1f878fa26f8476ee1ea6cc19f66e1fcd);
+        
+    
+            var feature_group_45f0fc2c7503ff1cd6e11b76881a30f4 = L.featureGroup(
+                {}
+            ).addTo(map_1f878fa26f8476ee1ea6cc19f66e1fcd);
+        
+    
+            var marker_a97568d8480d2bedec9d58ceab8f6805 = L.marker(
+                [-16.31, -151.81],
+                {}
+            ).addTo(feature_group_45f0fc2c7503ff1cd6e11b76881a30f4);
+        
+    
+            var icon_c99dd70a88b002e9c6a4e21633225fa5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a97568d8480d2bedec9d58ceab8f6805.setIcon(icon_c99dd70a88b002e9c6a4e21633225fa5);
+        
+    
+        var popup_f7ce762772de1e0265cbf9881674a579 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1125771a45077ce7289a41ccb21146ec = $(`<div id="html_1125771a45077ce7289a41ccb21146ec" style="width: 100.0%; height: 100.0%;">La perla della Polinesia </div>`)[0];
+                popup_f7ce762772de1e0265cbf9881674a579.setContent(html_1125771a45077ce7289a41ccb21146ec);
+            
+        
+
+        marker_a97568d8480d2bedec9d58ceab8f6805.bindPopup(popup_f7ce762772de1e0265cbf9881674a579)
+        ;
+
+        
+    
+    
+            var marker_83f7e150268276c5f96aa97f8fa90b13 = L.marker(
+                [-17.0243749, -144.6434898],
+                {}
+            ).addTo(feature_group_45f0fc2c7503ff1cd6e11b76881a30f4);
+        
+    
+            var icon_6babc50a2764795c0898629d5609c95f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_83f7e150268276c5f96aa97f8fa90b13.setIcon(icon_6babc50a2764795c0898629d5609c95f);
+        
+    
+        var popup_a3f3ddb13a511e3471afcd7cd7d9e00f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5fcd8096fa11dc722eb6933380a021f = $(`<div id="html_c5fcd8096fa11dc722eb6933380a021f" style="width: 100.0%; height: 100.0%;">Jamais sans mes palmes </div>`)[0];
+                popup_a3f3ddb13a511e3471afcd7cd7d9e00f.setContent(html_c5fcd8096fa11dc722eb6933380a021f);
+            
+        
+
+        marker_83f7e150268276c5f96aa97f8fa90b13.bindPopup(popup_a3f3ddb13a511e3471afcd7cd7d9e00f)
+        ;
+
+        
+    
+    
+            var marker_95b9581bacf41b301f28500f70fa3350 = L.marker(
+                [19.593801499999998, -155.42837009716908],
+                {}
+            ).addTo(feature_group_45f0fc2c7503ff1cd6e11b76881a30f4);
+        
+    
+            var icon_0b16df9512849a6f4a1a0f1f4ccf68c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_95b9581bacf41b301f28500f70fa3350.setIcon(icon_0b16df9512849a6f4a1a0f1f4ccf68c7);
+        
+    
+        var popup_bfa76f936400746b54b2c850f421a41d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a2b42e875641e13c2c21fe7a76e886e = $(`<div id="html_2a2b42e875641e13c2c21fe7a76e886e" style="width: 100.0%; height: 100.0%;">"Hawaii: Inside Paradise" </div>`)[0];
+                popup_bfa76f936400746b54b2c850f421a41d.setContent(html_2a2b42e875641e13c2c21fe7a76e886e);
+            
+        
+
+        marker_95b9581bacf41b301f28500f70fa3350.bindPopup(popup_bfa76f936400746b54b2c850f421a41d)
+        ;
+
+        
+    
+    
+            var marker_7c049407c853d7aaff9edcdaf037cc5c = L.marker(
+                [19.7073734, -155.08158],
+                {}
+            ).addTo(feature_group_45f0fc2c7503ff1cd6e11b76881a30f4);
+        
+    
+            var icon_1ae532af6e7a6726b90b9e215e31c2ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7c049407c853d7aaff9edcdaf037cc5c.setIcon(icon_1ae532af6e7a6726b90b9e215e31c2ef);
+        
+    
+        var popup_7874a837133791c6dc718ff85d5cfbb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b52218ae7b9ce078ed4e1fd0fe729ded = $(`<div id="html_b52218ae7b9ce078ed4e1fd0fe729ded" style="width: 100.0%; height: 100.0%;">Subjective Expressions </div>`)[0];
+                popup_7874a837133791c6dc718ff85d5cfbb0.setContent(html_b52218ae7b9ce078ed4e1fd0fe729ded);
+            
+        
+
+        marker_7c049407c853d7aaff9edcdaf037cc5c.bindPopup(popup_7874a837133791c6dc718ff85d5cfbb0)
+        ;
+
+        
+    
+    
+            var marker_b4761c3827c0c61bd46e42b821c01767 = L.marker(
+                [19.6472213, -155.9966428],
+                {}
+            ).addTo(feature_group_45f0fc2c7503ff1cd6e11b76881a30f4);
+        
+    
+            var icon_c1ee2c1db5b32b0987409d7dc92cc310 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b4761c3827c0c61bd46e42b821c01767.setIcon(icon_c1ee2c1db5b32b0987409d7dc92cc310);
+        
+    
+        var popup_bc115a38f483f9985476673454a978d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2fcad144d8354948110b688a2e2ec23 = $(`<div id="html_b2fcad144d8354948110b688a2e2ec23" style="width: 100.0%; height: 100.0%;">Beautiful.blue </div>`)[0];
+                popup_bc115a38f483f9985476673454a978d0.setContent(html_b2fcad144d8354948110b688a2e2ec23);
+            
+        
+
+        marker_b4761c3827c0c61bd46e42b821c01767.bindPopup(popup_bc115a38f483f9985476673454a978d0)
+        ;
+
+        
+    
+    
+            var marker_a639d50be09599cc6a3184f4a85f1ef9 = L.marker(
+                [20.802956799999997, -156.31068331602177],
+                {}
+            ).addTo(feature_group_45f0fc2c7503ff1cd6e11b76881a30f4);
+        
+    
+            var icon_5db95be1670cb5d10116a515eb67066c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a639d50be09599cc6a3184f4a85f1ef9.setIcon(icon_5db95be1670cb5d10116a515eb67066c);
+        
+    
+        var popup_bad0dc64e32f9852f102e63ef00e82a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d0f4f4468b7690627e03f6e8b6ce86a = $(`<div id="html_2d0f4f4468b7690627e03f6e8b6ce86a" style="width: 100.0%; height: 100.0%;">Family of the Wa'a </div>`)[0];
+                popup_bad0dc64e32f9852f102e63ef00e82a3.setContent(html_2d0f4f4468b7690627e03f6e8b6ce86a);
+            
+        
+
+        marker_a639d50be09599cc6a3184f4a85f1ef9.bindPopup(popup_bad0dc64e32f9852f102e63ef00e82a3)
+        ;
+
+        
+    
+    
+            var marker_0a03e47225c820f3c320f33cf9fddd67 = L.marker(
+                [21.16316475, -157.04824324316647],
+                {}
+            ).addTo(feature_group_45f0fc2c7503ff1cd6e11b76881a30f4);
+        
+    
+            var icon_d8f1b432d0ec7304f8ca7376a5074b5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0a03e47225c820f3c320f33cf9fddd67.setIcon(icon_d8f1b432d0ec7304f8ca7376a5074b5d);
+        
+    
+        var popup_8bf8fdbc5334fb9d08713ede53e33a13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce9440afb8de99e9a0c07b1bba5bf45e = $(`<div id="html_ce9440afb8de99e9a0c07b1bba5bf45e" style="width: 100.0%; height: 100.0%;">The Soul of Kalaupapa: Voices of Exile </div>`)[0];
+                popup_8bf8fdbc5334fb9d08713ede53e33a13.setContent(html_ce9440afb8de99e9a0c07b1bba5bf45e);
+            
+        
+
+        marker_0a03e47225c820f3c320f33cf9fddd67.bindPopup(popup_8bf8fdbc5334fb9d08713ede53e33a13)
+        ;
+
+        
+    
+    
+            var marker_27b43de88aad358202d2d97f96064eb7 = L.marker(
+                [21.9769622, -159.3687721],
+                {}
+            ).addTo(feature_group_45f0fc2c7503ff1cd6e11b76881a30f4);
+        
+    
+            var icon_679423b088fdda83db477ae3cee9ae27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_27b43de88aad358202d2d97f96064eb7.setIcon(icon_679423b088fdda83db477ae3cee9ae27);
+        
+    
+        var popup_d9aea746e7080bc560f1140cd39cea50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_335f0654d708d53df169ba6dbb9c5e3d = $(`<div id="html_335f0654d708d53df169ba6dbb9c5e3d" style="width: 100.0%; height: 100.0%;">A Teacher's Life from the Inside </div>`)[0];
+                popup_d9aea746e7080bc560f1140cd39cea50.setContent(html_335f0654d708d53df169ba6dbb9c5e3d);
+            
+        
+
+        marker_27b43de88aad358202d2d97f96064eb7.bindPopup(popup_d9aea746e7080bc560f1140cd39cea50)
+        ;
+
+        
+    
+    
+            var marker_e649dbffc55a5df338b69f3e01de8d5f = L.marker(
+                [-13.7693895, -172.12005],
+                {}
+            ).addTo(feature_group_45f0fc2c7503ff1cd6e11b76881a30f4);
+        
+    
+            var icon_cbfadebe3b9fb08f3a4a9bf9e2d15efb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e649dbffc55a5df338b69f3e01de8d5f.setIcon(icon_cbfadebe3b9fb08f3a4a9bf9e2d15efb);
+        
+    
+        var popup_69fd50e6ec0526dc01507ae25a0dfb97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ba09a5d69936fc9b34a4bbec4c511fc = $(`<div id="html_6ba09a5d69936fc9b34a4bbec4c511fc" style="width: 100.0%; height: 100.0%;">O le tulafale </div>`)[0];
+                popup_69fd50e6ec0526dc01507ae25a0dfb97.setContent(html_6ba09a5d69936fc9b34a4bbec4c511fc);
+            
+        
+
+        marker_e649dbffc55a5df338b69f3e01de8d5f.bindPopup(popup_69fd50e6ec0526dc01507ae25a0dfb97)
+        ;
+
+        
+    
+    
+            var marker_725e2e38259c4becaaeeabe0661a998a = L.marker(
+                [-13.62126605, -172.4394473479906],
+                {}
+            ).addTo(feature_group_45f0fc2c7503ff1cd6e11b76881a30f4);
+        
+    
+            var icon_30078c744f5a8f7991913c56441a1ae6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_725e2e38259c4becaaeeabe0661a998a.setIcon(icon_30078c744f5a8f7991913c56441a1ae6);
+        
+    
+        var popup_471f5846e100c9ac4be626a9901acd97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_820de1c0c01889c117ebfed1ce741079 = $(`<div id="html_820de1c0c01889c117ebfed1ce741079" style="width: 100.0%; height: 100.0%;">Ser un ser humano </div>`)[0];
+                popup_471f5846e100c9ac4be626a9901acd97.setContent(html_820de1c0c01889c117ebfed1ce741079);
+            
+        
+
+        marker_725e2e38259c4becaaeeabe0661a998a.bindPopup(popup_471f5846e100c9ac4be626a9901acd97)
+        ;
+
+        
+    
+    
+            var circle_e477cbb708d33485e80c1968236dd2c8 = L.circle(
+                [-0.628508, -150.423],
+                {"bubblingMouseEvents": true, "color": "#000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2834298.9925597357, "stroke": true, "weight": 2}
+            ).addTo(feature_group_45f0fc2c7503ff1cd6e11b76881a30f4);
+        
+</script>
+</html>

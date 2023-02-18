@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b80fa58db977bf26774ac905d51dbc66 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b80fa58db977bf26774ac905d51dbc66" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b80fa58db977bf26774ac905d51dbc66 = L.map(
+                "map_b80fa58db977bf26774ac905d51dbc66",
+                {
+                    center: [45.229, 11.2234],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_19845a1fb8174c52af617950c7b790b8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b80fa58db977bf26774ac905d51dbc66);
+        
+    
+            var feature_group_7eb49f2579389b0a4c97aae459e16869 = L.featureGroup(
+                {}
+            ).addTo(map_b80fa58db977bf26774ac905d51dbc66);
+        
+    
+            var marker_a95ac3ae389c5962a58911bf2263973d = L.marker(
+                [44.9211516, 10.6539985],
+                {}
+            ).addTo(feature_group_7eb49f2579389b0a4c97aae459e16869);
+        
+    
+            var icon_0d9c622b75c515b1597060bf8f73e026 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a95ac3ae389c5962a58911bf2263973d.setIcon(icon_0d9c622b75c515b1597060bf8f73e026);
+        
+    
+        var popup_524d4e4fa56ac83ff6a96b2d78c7f9ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73f5ee9c908a7a8df55f68f84f9a5c61 = $(`<div id="html_73f5ee9c908a7a8df55f68f84f9a5c61" style="width: 100.0%; height: 100.0%;">Amor nello specchio </div>`)[0];
+                popup_524d4e4fa56ac83ff6a96b2d78c7f9ba.setContent(html_73f5ee9c908a7a8df55f68f84f9a5c61);
+            
+        
+
+        marker_a95ac3ae389c5962a58911bf2263973d.bindPopup(popup_524d4e4fa56ac83ff6a96b2d78c7f9ba)
+        ;
+
+        
+    
+    
+            var marker_275a96e927cce459daf54bde517e7324 = L.marker(
+                [45.6476663, 11.8665254],
+                {}
+            ).addTo(feature_group_7eb49f2579389b0a4c97aae459e16869);
+        
+    
+            var icon_c080d3ce2cb2473eb1b98a6226f9cdf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_275a96e927cce459daf54bde517e7324.setIcon(icon_c080d3ce2cb2473eb1b98a6226f9cdf3);
+        
+    
+        var popup_8418efb89653905a6a727a12b8e027ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd4d594f04c511361315939d9e3a73bf = $(`<div id="html_cd4d594f04c511361315939d9e3a73bf" style="width: 100.0%; height: 100.0%;">Capitali coraggiosi - storie di imprenditori Italiani </div>`)[0];
+                popup_8418efb89653905a6a727a12b8e027ca.setContent(html_cd4d594f04c511361315939d9e3a73bf);
+            
+        
+
+        marker_275a96e927cce459daf54bde517e7324.bindPopup(popup_8418efb89653905a6a727a12b8e027ca)
+        ;
+
+        
+    
+    
+            var marker_9bb35b2b56eb1ea4a6e94cb10c37f2bf = L.marker(
+                [45.47675, 12.214166],
+                {}
+            ).addTo(feature_group_7eb49f2579389b0a4c97aae459e16869);
+        
+    
+            var icon_df7e0d67475a4f96ceca1ebd986495ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9bb35b2b56eb1ea4a6e94cb10c37f2bf.setIcon(icon_df7e0d67475a4f96ceca1ebd986495ea);
+        
+    
+        var popup_7b2d8ea05297b3c8717f3b2fc2f38631 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adb9c8fcc1588371ad5a016107eada58 = $(`<div id="html_adb9c8fcc1588371ad5a016107eada58" style="width: 100.0%; height: 100.0%;">"Pumuckls Abenteuer" </div>`)[0];
+                popup_7b2d8ea05297b3c8717f3b2fc2f38631.setContent(html_adb9c8fcc1588371ad5a016107eada58);
+            
+        
+
+        marker_9bb35b2b56eb1ea4a6e94cb10c37f2bf.bindPopup(popup_7b2d8ea05297b3c8717f3b2fc2f38631)
+        ;
+
+        
+    
+    
+            var marker_7c0c94ad56a6a51264de0e2f4d7adbad = L.marker(
+                [44.4939334, 11.3425798],
+                {}
+            ).addTo(feature_group_7eb49f2579389b0a4c97aae459e16869);
+        
+    
+            var icon_3f8bd8a99c3b2933cb5400b157e513ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7c0c94ad56a6a51264de0e2f4d7adbad.setIcon(icon_3f8bd8a99c3b2933cb5400b157e513ba);
+        
+    
+        var popup_da412d51bc7c11b8a65cca08f7a9b9eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6eac8d913525e3e97cc45942fab7a12a = $(`<div id="html_6eac8d913525e3e97cc45942fab7a12a" style="width: 100.0%; height: 100.0%;">Continuando </div>`)[0];
+                popup_da412d51bc7c11b8a65cca08f7a9b9eb.setContent(html_6eac8d913525e3e97cc45942fab7a12a);
+            
+        
+
+        marker_7c0c94ad56a6a51264de0e2f4d7adbad.bindPopup(popup_da412d51bc7c11b8a65cca08f7a9b9eb)
+        ;
+
+        
+    
+    
+            var marker_780e29718d712838db85e445a532235c = L.marker(
+                [44.8013678, 10.3280833],
+                {}
+            ).addTo(feature_group_7eb49f2579389b0a4c97aae459e16869);
+        
+    
+            var icon_a92adf89fa8d2b49c8850da0f4796450 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_780e29718d712838db85e445a532235c.setIcon(icon_a92adf89fa8d2b49c8850da0f4796450);
+        
+    
+        var popup_04711d8917da0c3c6a8e3e95295be4fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8981c505e776c91a6654e3019b68f65 = $(`<div id="html_b8981c505e776c91a6654e3019b68f65" style="width: 100.0%; height: 100.0%;">Tifosi </div>`)[0];
+                popup_04711d8917da0c3c6a8e3e95295be4fa.setContent(html_b8981c505e776c91a6654e3019b68f65);
+            
+        
+
+        marker_780e29718d712838db85e445a532235c.bindPopup(popup_04711d8917da0c3c6a8e3e95295be4fa)
+        ;
+
+        
+    
+    
+            var marker_a2d058362483f32d8ed118389ed3dee0 = L.marker(
+                [45.4371908, 12.3345898],
+                {}
+            ).addTo(feature_group_7eb49f2579389b0a4c97aae459e16869);
+        
+    
+            var icon_3456b5fa31064584ed66956f2eeb1758 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a2d058362483f32d8ed118389ed3dee0.setIcon(icon_3456b5fa31064584ed66956f2eeb1758);
+        
+    
+        var popup_a3ad5b8cbee7474efb6a07b82db6220d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c006cb8630f47cd4a2ba433b968b05b0 = $(`<div id="html_c006cb8630f47cd4a2ba433b968b05b0" style="width: 100.0%; height: 100.0%;">Her Bijit </div>`)[0];
+                popup_a3ad5b8cbee7474efb6a07b82db6220d.setContent(html_c006cb8630f47cd4a2ba433b968b05b0);
+            
+        
+
+        marker_a2d058362483f32d8ed118389ed3dee0.bindPopup(popup_a3ad5b8cbee7474efb6a07b82db6220d)
+        ;
+
+        
+    
+    
+            var marker_99dc5cc57e584b74140a4eaf0a1ebd76 = L.marker(
+                [46.0042043, 11.8942362],
+                {}
+            ).addTo(feature_group_7eb49f2579389b0a4c97aae459e16869);
+        
+    
+            var icon_e2041ff50e8fb49c440c0876bd1f2a12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_99dc5cc57e584b74140a4eaf0a1ebd76.setIcon(icon_e2041ff50e8fb49c440c0876bd1f2a12);
+        
+    
+        var popup_63756522e64ec611f92d189913ea64df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33d807af9921b335f13e665e72beba1a = $(`<div id="html_33d807af9921b335f13e665e72beba1a" style="width: 100.0%; height: 100.0%;">The Adventures of Young Indiana Jones: Tales of Innocence </div>`)[0];
+                popup_63756522e64ec611f92d189913ea64df.setContent(html_33d807af9921b335f13e665e72beba1a);
+            
+        
+
+        marker_99dc5cc57e584b74140a4eaf0a1ebd76.bindPopup(popup_63756522e64ec611f92d189913ea64df)
+        ;
+
+        
+    
+    
+            var marker_8277a20ddb41a7350f5cd37bfb89772e = L.marker(
+                [44.364060699999996, 12.059009490863945],
+                {}
+            ).addTo(feature_group_7eb49f2579389b0a4c97aae459e16869);
+        
+    
+            var icon_92d66849bf3cb8f6ff60c851dde5596a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8277a20ddb41a7350f5cd37bfb89772e.setIcon(icon_92d66849bf3cb8f6ff60c851dde5596a);
+        
+    
+        var popup_c14c637a465dac8f2633cdf16a775ed2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7692346878f86a7695ea751c2818d01f = $(`<div id="html_7692346878f86a7695ea751c2818d01f" style="width: 100.0%; height: 100.0%;">"Fine secolo" </div>`)[0];
+                popup_c14c637a465dac8f2633cdf16a775ed2.setContent(html_7692346878f86a7695ea751c2818d01f);
+            
+        
+
+        marker_8277a20ddb41a7350f5cd37bfb89772e.bindPopup(popup_c14c637a465dac8f2633cdf16a775ed2)
+        ;
+
+        
+    
+    
+            var marker_159356320306039fa41566a6f771f8bd = L.marker(
+                [43.9740957, 10.868708114044026],
+                {}
+            ).addTo(feature_group_7eb49f2579389b0a4c97aae459e16869);
+        
+    
+            var icon_ad4d21892c18f2fca3ecbd72c59e97af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_159356320306039fa41566a6f771f8bd.setIcon(icon_ad4d21892c18f2fca3ecbd72c59e97af);
+        
+    
+        var popup_617930f8b405b3520ddd733b0ef2dde8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62c5dc34612381953aac1a080cf51f39 = $(`<div id="html_62c5dc34612381953aac1a080cf51f39" style="width: 100.0%; height: 100.0%;">Claudio Parmiggiani. Polvere. Fattoria di Celle </div>`)[0];
+                popup_617930f8b405b3520ddd733b0ef2dde8.setContent(html_62c5dc34612381953aac1a080cf51f39);
+            
+        
+
+        marker_159356320306039fa41566a6f771f8bd.bindPopup(popup_617930f8b405b3520ddd733b0ef2dde8)
+        ;
+
+        
+    
+    
+            var marker_1a4d00615546ac2c4d3cacdc6de42a67 = L.marker(
+                [44.017763900000006, 10.454430026192636],
+                {}
+            ).addTo(feature_group_7eb49f2579389b0a4c97aae459e16869);
+        
+    
+            var icon_e1d1cf92ebb9b7abe8f551567fd8134d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1a4d00615546ac2c4d3cacdc6de42a67.setIcon(icon_e1d1cf92ebb9b7abe8f551567fd8134d);
+        
+    
+        var popup_652f8ea2ef1a82242a0b90ee92104a92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4fd781a0d3ad7f91abfcf345fd8db00 = $(`<div id="html_a4fd781a0d3ad7f91abfcf345fd8db00" style="width: 100.0%; height: 100.0%;">Mai con i quadri </div>`)[0];
+                popup_652f8ea2ef1a82242a0b90ee92104a92.setContent(html_a4fd781a0d3ad7f91abfcf345fd8db00);
+            
+        
+
+        marker_1a4d00615546ac2c4d3cacdc6de42a67.bindPopup(popup_652f8ea2ef1a82242a0b90ee92104a92)
+        ;
+
+        
+    
+    
+            var circle_fb38600842ea5b4f500c20dffde25707 = L.circle(
+                [45.229, 11.2234],
+                {"bubblingMouseEvents": true, "color": "#000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 148465.4352193538, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7eb49f2579389b0a4c97aae459e16869);
+        
+</script>
+</html>

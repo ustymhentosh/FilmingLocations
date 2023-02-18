@@ -56,11 +56,16 @@ def generate_map(year, latitude, longitude):
                                 fill_color='#000',
                                 radius= rradius, weight=2, color="#000"))
     map.add_child(fg)
-    map.save('Final_map.html')
+    map.save('Result.html')
     return None
 
 
 if __name__ == "__main__":
+
+    if __name__ == '__main__':
+        import doctest
+        print(doctest.testmod())
+
     parser = argparse.ArgumentParser(
                     prog = 'generate_map',
                     description = 'gererates map of movies')
@@ -80,6 +85,4 @@ if __name__ == "__main__":
 
     generate_map(str(args.year), args.latitude , args.longitude)
 
-    if __name__ == '__main__':
-        import doctest
-        print(doctest.testmod())
+    
