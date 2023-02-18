@@ -1,0 +1,3 @@
+(40.7987113, -74.2390353) == ['Annabelle Butterfly Dance ', 'Carmencita ', 'Chinese Laundry Scene ', 'Dickson Experimental Sound Film ', 'Hadj Cheriff ']
+(48.8750764, 2.2869039) == ['Falling Cat ']
+(40.7706562, -74.2326463) == ['Sioux Ghost Dance ']
