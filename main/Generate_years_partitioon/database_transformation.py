@@ -128,4 +128,4 @@ if __name__ == '__main__':
                     help ='file where to read')
     args = parser.parse_args()
 
-    engage_decoding(read_transform_write(args.file, 'unique.txt'))
+    engage_decoding(read_transform_write(args.file))
